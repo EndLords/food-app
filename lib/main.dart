@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food/pages/home/main_food_page.dart';
+import 'package:food/pages/food/popular__food_detail.dart';
+import 'package:food/pages/recommended_food_detail.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: MainFoodPage(),
+      home: RecommenedFoodDetail(),
     );
   }
 }

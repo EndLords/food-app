@@ -13,7 +13,10 @@ class AppColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-      Bigtext(text: text),
+      Bigtext(
+        text: text,
+        size: Dimensions.font26,
+      ),
       SizedBox(height: Dimensions.height10),
       Row(
         children: [
@@ -36,7 +39,7 @@ class AppColumn extends StatelessWidget {
           const SizedBox(
             width: 5,
           ),
-          Smalltext(text: "comments")
+          Smalltext(text: "Yorum")
         ],
       ),
       SizedBox(
@@ -61,7 +64,7 @@ class AppColumn extends StatelessWidget {
           ///////////////////////////////////
           const IconAndTextWidget(
               icon: Icons.access_time_rounded,
-              text: "32min",
+              text: "32dk",
               iconColor: Color(0xFFFFD740)),
         ],
       ),
